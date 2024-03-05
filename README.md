@@ -16,8 +16,8 @@ ln -s ~/dotfiles/.config/nvim ~/.config/nvim
   
 ![image](https://github.com/indraryadi/dotfile/assets/103250258/12343806-e409-4c5f-b692-925a2448a15b)
 
-#### nvim & tmux
-add 9 plugins for nvim
+#### nvim
+a. add 9 plugins
 - vim-lsp (language server)
 - vim-lsp-setting (automatic configure language server)
 - asyncomplete-lsp.vim & asyncomplete.vim (autocomplete)
@@ -25,7 +25,16 @@ add 9 plugins for nvim
 - emmet-vim (improves HTML & CSS workflow)
 - fzf & fzf.vim (A command-line fuzzy finder)
 - vim-rooter (Changes Vim working directory to project root.)
+  
+b. setup file explorer (Netrw)
+- remove header
 
+![image](https://github.com/indraryadi/dotfile/assets/103250258/7e56ae78-eeee-49c6-b94c-0fe9bb73fa26)
+
+c. use default neovim terminal
+- run by type :terminal
+
+#### tmux
 set status bar color and enable mouse mode for tmux
 
 ![image](https://github.com/indraryadi/dotfile/assets/103250258/0da404a1-7544-404e-92de-e458ca19169b)
