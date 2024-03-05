@@ -1,6 +1,6 @@
 My personal setup for terminal, tmux, i3, and neovim.Try to keep it simple as much as i can.
 
-Create symbiolic link:
+Create symbolic link:
 ```sh
 ln -s ~/dotfiles/.bashrc .bashrc
 ln -s ~/dotfiles/.tmux.conf .tmux.conf
