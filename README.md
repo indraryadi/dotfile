@@ -17,7 +17,7 @@ ln -s ~/dotfiles/.config/nvim ~/.config/nvim
 ![image](https://github.com/indraryadi/dotfile/assets/103250258/12343806-e409-4c5f-b692-925a2448a15b)
 
 #### nvim & tmux
-add 9 plugins for tmux
+add 9 plugins for nvim
 - vim-lsp (language server)
 - vim-lsp-setting (automatic configure language server)
 - asyncomplete-lsp.vim & asyncomplete.vim (autocomplete)
@@ -25,6 +25,8 @@ add 9 plugins for tmux
 - emmet-vim (improves HTML & CSS workflow)
 - fzf & fzf.vim (A command-line fuzzy finder)
 - vim-rooter (Changes Vim working directory to project root.)
+
+set status bar color and enable mouse mode for tmux
 
 ![image](https://github.com/indraryadi/dotfile/assets/103250258/0da404a1-7544-404e-92de-e458ca19169b)
 
