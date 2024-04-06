@@ -9,6 +9,8 @@ set laststatus=2
 set statusline=%<%f\ %h%m%r%y%=%w\ [%L,%v][%p%%]
 set autochdir
 set mouse=a
+set foldenable
+set foldmethod=indent
 
 "colorscheme 
 "background light day=peachpuff night=evening|
