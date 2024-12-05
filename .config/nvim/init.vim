@@ -4,7 +4,19 @@ set number
 syntax on
 syntax enable
 set relativenumber
-set ts=4 sw=4
+
+" Indentation settings
+set expandtab       " Use spaces instead of tabs
+set tabstop=4       " Set width of a tab character
+set shiftwidth=4    " Number of spaces for auto-indentation
+set softtabstop=4   " Number of spaces for a <Tab>
+set autoindent      " Copy indent from the current line
+set smartindent     " Smart auto-indenting for programming
+
+" Enable filetype-specific plugins and indentation
+filetype plugin indent on
+" set ts=4 sw=4
+
 set laststatus=2
 set statusline=%<%f\ %h%m%r%y%=%w\ [%L,%v][%p%%]
 set autochdir
