@@ -13,6 +13,9 @@ set softtabstop=4   " Number of spaces for a <Tab>
 set autoindent      " Copy indent from the current line
 set smartindent     " Smart auto-indenting for programming
 
+" set color for matching pair
+highlight MatchParen ctermfg=White ctermbg=Blue guifg=White guibg=Blue
+
 " Enable filetype-specific plugins and indentation
 filetype plugin indent on
 " set ts=4 sw=4
